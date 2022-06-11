@@ -65,5 +65,18 @@ go test -v ./tests/... -count=1 | go-junit-report > report/results.xml
 allure serve ./report
 ```
 
+## Cool tips
+It seems nice to have the Go tests colored so let's install something else.
+
+```bash
+cd $GOPATH/bin # make sure GOPATH exists on your go env
+go install github.com/rakyll/gotest@latest
+```
+
+Afterwards, change every single `go test` syntax with `gotest`, for example
+```bash
+gotest -v ./tests/... -count=1
+```
+
 ## Remarks
 This not-so-hackathon is made to understand more about offline test harness during my internship. I might add more tests or assertions if I have more time.
