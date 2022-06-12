@@ -1,0 +1,26 @@
+{
+    "LT0-0101": [
+        {
+            "day": "Tuesday",
+            "classes": [
+                {
+                    "classNo": "T1",
+                    "startTime": "1800",
+                    "endTime": "2100",
+                    "weeks": [
+                        1,
+                        2
+                    ],
+                    "day": "Tuesday",
+                    "lessonType": "Lecture",
+                    "size": 300,
+                    "moduleCode": "AA1000"
+                }
+            ],
+            "availability": {
+                "1000": "occupied",
+                "1100": "occupied"
+            }
+        }
+    ]
+}

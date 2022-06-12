@@ -1,2 +1,4 @@
 *.json
+!0.json
+!YYYY-YYYY.json
 report/

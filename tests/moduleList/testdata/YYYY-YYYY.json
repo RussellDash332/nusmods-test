@@ -1,0 +1,12 @@
+[
+    {
+        "moduleCode": "AA1000",
+        "title": "Module Title",
+        "semesters": [
+            1,
+            2,
+            3,
+            4
+        ]
+    }
+]

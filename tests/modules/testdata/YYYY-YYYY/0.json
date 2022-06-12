@@ -1,0 +1,55 @@
+{
+    "acadYear": "YYYY-YYYY",
+    "preclusion": "AB1000",
+    "description": "Description.",
+    "title": "Module Title",
+    "department": "Mathematics",
+    "faculty": "Science",
+    "workload": [
+        1,
+        2,
+        3,
+        4.5,
+        5
+    ],
+    "prerequisite": "AC1000 and AD1000",
+    "moduleCredit": "4",
+    "moduleCode": "AA1000",
+    "attributes": {
+        "sfs": true,
+        "ssgf": true
+    },
+    "semesterData": [
+        {
+            "semester": 2,
+            "timetable": [
+                {
+                    "classNo": "1",
+                    "startTime": "0800",
+                    "endTime": "1000",
+                    "weeks": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "venue": "LT0",
+                    "day": "Wednesday",
+                    "lessonType": "Lecture",
+                    "size": 1000
+                }
+            ],
+            "examDate": "2012-01-10T00:00:00.000Z",
+            "examDuration": 60
+        }
+    ],
+    "prereqTree": {
+        "and": [
+            "AC1000",
+            "AD1000"
+        ]
+    },
+    "fulfillRequirements": [
+        "BB1000",
+        "CC1000"
+    ]
+}

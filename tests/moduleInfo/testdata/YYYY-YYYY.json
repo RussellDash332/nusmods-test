@@ -1,0 +1,32 @@
+[
+    {
+        "moduleCode": "AA1000",
+        "title": "Module Title",
+        "description": "Description.",
+        "moduleCredit": "4",
+        "department": "Accounting",
+        "faculty": "NUS Business School",
+        "workload": [
+            1,
+            2,
+            3,
+            4.5,
+            5
+        ],
+        "preclusion": "Students who have passed AB1000 are not allowed to take AA1000.",
+        "attributes": {
+            "su": true,
+            "ssgf": true
+        },
+        "semesterData": [
+            {
+                "semester": 1,
+                "examDate": "2018-12-01T01:00:00.000Z",
+                "examDuration": 120
+            },
+            {
+                "semester": 2
+            }
+        ]
+    }
+]
