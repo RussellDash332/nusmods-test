@@ -1,9 +1,10 @@
 # nusmods-test
 Offline test harness for NUSMods API, made for fun over the weekend.
 
-Since this was only made in two days, only the basic, happy paths are included.
+Since this was only made in two days, only the basic, happy scenarios are included.
 - Day 1: collect all endpoints, generate all JSONs, create verification script 
-- Day 2: convert to test suites and create config package
+- Day 2: create config package and convert to subtests that can be noticed in Allure
+- Future: convert to more compact test suites to cover more non-happy scenarios
 
 ## Setup
 ```bash
