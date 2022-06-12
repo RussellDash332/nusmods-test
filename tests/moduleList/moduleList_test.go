@@ -41,5 +41,6 @@ func TestModuleList(t *testing.T) {
 		}
 
 		assert.Equalf(modulesList, modulesListExpected, "%s: test JSON differs with expected JSON", scenario.Name)
+		t.Logf("%s", scenario.Name)
 	}
 }

@@ -48,6 +48,7 @@ func TestVenues(t *testing.T) {
 			sort.Strings(venueList)
 			sort.Strings(venueListExpected)
 			assert.Equalf(venueList, venueListExpected, "(Semester %s, %s): test JSON differs with expected JSON", semester, scenario.Name)
+			t.Logf("Semester %s, %s", semester, scenario.Name)
 		}
 	}
 }

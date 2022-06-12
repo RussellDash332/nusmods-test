@@ -80,3 +80,5 @@ gotest -v ./tests/... -count=1
 
 ## Remarks
 This not-so-hackathon is made to understand more about offline test harness during my internship. I might add more tests or assertions if I have more time.
+
+Some tests might be failing due to data refresh, so `python3 gen.py` is the way to go if it's the case.

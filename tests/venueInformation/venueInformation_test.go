@@ -44,6 +44,7 @@ func TestVenueInformation(t *testing.T) {
 			}
 
 			assert.Equalf(venueInfo, venueInfoExpected, "(Semester %s, %s): test JSON differs with expected JSON", semester, scenario.Name)
+			t.Logf("Semester %s, %s", semester, scenario.Name)
 		}
 	}
 }
