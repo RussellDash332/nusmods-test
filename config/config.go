@@ -6,6 +6,8 @@ import (
 	"io/ioutil"
 )
 
+var ShowDiff = true
+
 var modulesConfig, _ = ioutil.ReadFile("../../config/modules.txt")
 var Modules []string = strings.Split(string(modulesConfig), "\n")
 
@@ -35,6 +37,10 @@ type Scenario struct {
 }
 
 var Scenarios = []Scenario{
+	{
+		Name:             "2018-2019",
+		ExpectedJsonPath: "testdata/2018-2019.json",
+	},
 	{
 		Name:             "2019-2020",
 		ExpectedJsonPath: "testdata/2019-2020.json",
