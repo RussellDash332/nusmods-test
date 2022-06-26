@@ -3,7 +3,7 @@ import requests, os, json, time
 
 # Get modules preference from config
 modules = list(map(lambda x: x.strip(), open('config/modules.txt').readlines()))
-years = list(map(lambda x: f'{x}-{x+1}', range(2018, 2022))) # NUSMods API available from 2018-2019
+years = list(map(lambda x: f'{x}-{x+1}', range(2018, 2023))) # NUSMods API available from 2018-2019
 
 # To prevent QPS issue
 old_get = requests.get

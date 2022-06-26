@@ -53,4 +53,8 @@ var Scenarios = []Scenario{
 		Name:             "2021-2022",
 		ExpectedJsonPath: "testdata/2021-2022.json",
 	},
+	{
+		Name:             "2022-2023",
+		ExpectedJsonPath: "testdata/2022-2023.json",
+	},
 }
